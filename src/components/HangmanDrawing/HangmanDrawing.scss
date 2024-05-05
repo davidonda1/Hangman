@@ -1,0 +1,91 @@
+.hangmanDrawing {
+  position: relative;
+  margin-top: 50px;
+
+  .bottomLine {
+    height: 10px;
+    width: 250px;
+    background: black;
+  }
+
+  .lineUp {
+    height: 300px;
+    width: 10px;
+    background: black;
+    margin-left: 120px;
+  }
+
+  .topLine {
+    height: 10px;
+    width: 100px;
+    background: black;
+    margin-left: 120px;
+  }
+
+  .lastLine {
+    position: absolute;
+    height: 50px;
+    width: 10px;
+    background: black;
+    right: 20px;
+  }
+
+  .head {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border: 10px solid black;
+    border-radius: 100%;
+    right: 2.5px;
+    top: 49px;
+  }
+
+  .body {
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    background: black;
+    right: 20px;
+    top: 93px;
+  }
+
+  .armRight {
+    position: absolute;
+    height: 10px;
+    width: 50px;
+    background: black;
+    right: -24px;
+    top: 94px;
+    rotate: -30deg;
+  }
+
+  .armLeft {
+    position: absolute;
+    height: 10px;
+    width: 50px;
+    background: black;
+    right: 24px;
+    top: 94px;
+    rotate: 30deg;
+  }
+
+  .legRight {
+    position: absolute;
+    height: 10px;
+    width: 70px;
+    background: black;
+    right: -27px;
+    top: 215px;
+    rotate: 60deg;
+  }
+
+  .legLeft {
+    position: absolute;
+    height: 10px;
+    width: 70px;
+    background: black;
+    right: 8px;
+    top: 215px;
+    rotate: -60deg;
+  }
+}

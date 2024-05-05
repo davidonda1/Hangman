@@ -1,0 +1,29 @@
+.keyboard{
+  margin-top: 50px;
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(75px,1fr));
+  gap: 10px;
+  button{
+    background: none;
+    font-size: 28px;
+  }
+  button:hover{
+    background: #8feaef;
+    cursor: pointer;
+  }
+  button:active{
+  background: #529eef;
+
+  }
+  button:disabled{
+    background: #adb0b1;
+   cursor: unset;
+  }
+  .disabled{
+
+    background: #adb0b1;
+    cursor: unset;
+  }
+
+}

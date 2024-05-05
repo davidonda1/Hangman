@@ -1,0 +1,23 @@
+.hangmanWord {
+  display: flex;
+  margin-top: 50px;
+  font-size: 68px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  gap: 20px;
+  .allWord {
+    border-bottom: 10px solid black;
+  }
+  .mistake{
+    border-bottom: 10px solid red;
+  }
+  .success{
+    border-bottom: 10px solid green;
+  }
+  .hidden{
+    visibility: hidden;
+  }
+  .visible{
+    visibility: visible;
+  }
+}
